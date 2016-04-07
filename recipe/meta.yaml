@@ -10,9 +10,10 @@ source:
   md5: 1d5db49ce0a5f64b8bd729e0455f52ab
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script: python -B setup.py install --single-version-externally-managed --record record.txt
+  script: CXXFLAGS="$CXXFLAGS -stdlib=libc++ " python -B setup.py install --single-version-externally-managed --record record.txt  # [osx]
 
 requirements:
   build:
@@ -24,6 +25,7 @@ requirements:
   - libblitz
   - boost
   - cmake
+  - gcc     # [linux]
 
   run:
   - python
@@ -31,6 +33,7 @@ requirements:
   - numpy x.x
   - libblitz
   - boost
+  - libgcc  # [linux]
 
 test:
   requires:
