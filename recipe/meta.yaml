@@ -21,7 +21,7 @@ requirements:
   - numpy x.x
   - pkg-config
   - libblitz
-  - boost
+  - boost 1.60*
   - cmake
 
   run:
@@ -29,7 +29,7 @@ requirements:
   - bob.extension
   - numpy x.x
   - libblitz
-  - boost
+  - boost 1.60*
 
 test:
   requires:
