@@ -10,7 +10,7 @@ source:
   md5: 1d5db49ce0a5f64b8bd729e0455f52ab
 
 build:
-  number: 6
+  number: 7
   skip: true  # [win]
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
   - numpy x.x
   - pkg-config
   - libblitz
-  - boost
+  - boost 1.60.*
   - cmake
 
   run:
@@ -29,7 +29,7 @@ requirements:
   - bob.extension
   - numpy x.x
   - libblitz
-  - boost
+  - boost 1.60.*
 
 test:
   requires:
