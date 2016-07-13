@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.blitz-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/b/bob.blitz/bob.blitz-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.blitz/bob.blitz-{{ version }}.zip
   md5: 3818dfa73f9b78daba9b0468e878f7c0
 
 build:
