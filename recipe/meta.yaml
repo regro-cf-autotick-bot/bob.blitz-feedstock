@@ -1,4 +1,4 @@
-{% set version = "2.0.9" %}
+{% set version = "2.0.10" %}
 
 package:
   name: bob.blitz
@@ -7,10 +7,10 @@ package:
 source:
   fn: bob.blitz-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.blitz/bob.blitz-{{ version }}.zip
-  md5: 3818dfa73f9b78daba9b0468e878f7c0
+  md5: 6fc60a228014663f2989815baaf6196f
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -43,7 +43,7 @@ test:
   - nosetests -sv bob.blitz
 
 about:
-  home: http://github.com/bioidiap/bob.blitz
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Bindings for Blitz++ (a C++ array template library)
 
