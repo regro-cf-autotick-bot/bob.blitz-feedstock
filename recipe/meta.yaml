@@ -15,32 +15,33 @@ build:
 
 requirements:
   build:
-  - python
-  - setuptools
-  - bob.extension
-  - numpy x.x
-  - pkg-config
-  - libblitz 0.10|0.10.*
-  - boost 1.61.*
-  - cmake
+    - python
+    - toolchain
+    - setuptools
+    - bob.extension
+    - numpy x.x
+    - pkg-config
+    - libblitz 0.10|0.10.*
+    - boost 1.61.*
+    - cmake
 
   run:
-  - python
-  - bob.extension
-  - numpy x.x
-  - libblitz 0.10|0.10.*
-  - boost 1.61.*
+    - python
+    - bob.extension
+    - numpy x.x
+    - libblitz 0.10|0.10.*
+    - boost 1.61.*
 
 test:
   requires:
-  - nose
+    - nose
 
   imports:
-  - bob
-  - bob.blitz
+    - bob
+    - bob.blitz
 
   commands:
-  - nosetests -sv bob.blitz
+    - nosetests -sv bob.blitz
 
 about:
   home: https://www.idiap.ch/software/bob/
@@ -49,4 +50,4 @@ about:
 
 extra:
   recipe-maintainers:
-  - 183amir
+    - 183amir
