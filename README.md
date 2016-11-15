@@ -3,7 +3,7 @@ About bob.blitz
 
 Home: https://www.idiap.ch/software/bob/
 
-Package license: Modified BSD License (3-clause)
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `bob.blitz` available on your plat
 ```
 conda search bob.blitz --channel conda-forge
 ```
-
 
 
 About conda-forge
