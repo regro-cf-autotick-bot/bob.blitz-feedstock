@@ -10,7 +10,7 @@ source:
   md5: 585f810562651177e7e36dc15df4f156
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
     - numpy x.x
     - pkg-config
     - libblitz 0.10|0.10.*
-    - boost 1.61.*
+    - boost 1.62.*
     - cmake
 
   run:
@@ -30,7 +30,7 @@ requirements:
     - bob.extension
     - numpy x.x
     - libblitz 0.10|0.10.*
-    - boost 1.61.*
+    - boost 1.62.*
 
 test:
   requires:
@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://www.idiap.ch/software/bob/
-  license: Modified BSD License (3-clause)
+  license: BSD 3-Clause
   summary: Bindings for Blitz++ (a C++ array template library)
 
 extra:
