@@ -1,4 +1,4 @@
-{% set version = "2.0.11" %}
+{% set version = "2.0.14" %}
 
 package:
   name: bob.blitz
@@ -7,10 +7,10 @@ package:
 source:
   fn: bob.blitz-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.blitz/bob.blitz-{{ version }}.zip
-  md5: 585f810562651177e7e36dc15df4f156
+  md5: 2044062fe20b33c5c6f1df2b3e1a1347
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win]
 
 requirements:
